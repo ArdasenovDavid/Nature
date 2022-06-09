@@ -1,0 +1,90 @@
+.grid {
+	justify-content: center;
+}
+
+.grid-text {
+	margin-top: 150px;
+	text-align: center;
+	font-family: var(--b);
+	font-size: 48px;
+	margin-bottom: 60px;
+}
+
+.grid-objects {
+	justify-content: center;
+	display: grid;
+	grid-gap: 40px;
+	grid-template-columns: 620px 620px;
+	grid-template-rows: 637px 637px;
+}
+
+.grid-object1 {
+	background: url('../images/photos/Rectangle 19.svg') no-repeat;
+}
+
+.grid-object2 {
+	background: url('../images/photos/Rectangle 20.svg') no-repeat;
+}
+
+.grid-object3 {
+	background: url('../images/photos/Rectangle 21.svg') no-repeat;
+}
+
+.grid-object4 {
+	background: url('../images/photos/Rectangle 22.svg') no-repeat;
+}
+
+.grid-object1,
+.grid-object2,
+.grid-object3,
+.grid-object4 {
+	padding-top: 540px;
+	padding-left: 50px;
+	border-radius: 20px;
+	color: white;
+	font-size: 42px;
+	font-family: var(--m);
+}
+
+@media (max-width: 1379px) {
+	.grid-objects {
+		grid-template-columns: 467px 467px;
+		grid-template-rows: 467px 467px;
+	}
+	.grid-object1,
+	.grid-object2,
+	.grid-object3,
+	.grid-object4 {
+		text-align: center;
+		padding-top: 400px;
+		padding-left: 0;
+	}
+
+}
+
+@media (max-width: 1040px) {
+	.grid-objects {
+		grid-template-columns: 367px 367px;
+		grid-template-rows: 367px 367px;
+		grid-gap: 20px;
+	}
+	.grid-object1,
+	.grid-object2,
+	.grid-object3,
+	.grid-object4 {
+		font-size: 30px;
+		padding-top: 300px;
+	}
+}
+
+@media (max-width: 980px) {
+	.grid-text {
+		font-size: 38px;
+	}
+}
+
+@media (max-width: 800px) {
+	.grid {
+		display: none;
+	}
+}

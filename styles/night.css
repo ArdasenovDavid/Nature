@@ -1,0 +1,100 @@
+.night {
+	position: relative;
+	margin-top: 100px;
+}
+
+.gradient {
+	width: 100%;
+}
+
+.night-back {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	right: 100px;
+	width: 1430px;
+	height: 713px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('../images/back/Rectangle 11.svg');
+	text-align: center;
+}
+
+.night-back span {
+	display: block;
+	margin-top: 450px;
+	font-size: 48px;
+	font-family: var(--b);
+	color: white;
+}
+
+.night-button {
+	width: 261px;
+	height: 72px;
+	margin-top: 40px;
+	
+	
+}
+
+@media (max-width: 1670px) {
+	.night-back {
+		width: 85%;
+	}	
+}
+
+@media (max-width: 1270px) {
+	.night-back {
+		width: 75%;
+		height: 400px;
+	}
+
+	.night-back span {
+		margin-top: 150px;
+	}
+}
+
+@media (max-width: 750px) {
+	.night-back {
+		top: 60px;
+	}
+
+	.night-back {
+		width: 65%;
+	}
+
+	.night-back span {
+		margin-top: 80px;
+	}
+}
+
+@media (max-width: 535px) {
+	.night-back {
+		width: 55%;
+		height: 300px;
+	}
+	.night-back span {
+		margin-top: 60px;
+		font-size: 28px;
+	}
+	.night-button {
+		width: 170px;
+		height: 60px;
+	}
+
+}
+
+@media (max-width: 420px) {
+	.night-back {
+		width: 50%;
+		height: 200px;
+	}
+	.night-back span {
+		margin-top: 30px;
+		font-size: 22px;
+	}
+	.night-button {
+		width: 160px;
+		height: 60px;
+		margin-top: 10px;
+	}
+}

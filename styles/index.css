@@ -1,0 +1,30 @@
+:root {
+	--black: #000000;
+	--white: #FFFFFF;
+
+	--blue: #3685FB;
+	--white-blue: #63a2e6;
+
+	--white-gray: #F1F1F1;
+	--dark-gray: #898989;
+
+	--carrot-red: #D93B30;
+	--red: #CC2D4A;
+	--malina-red: #BC1A6E;
+
+	--purple: #A18CD1;
+	--white-purple:#F6F4FF;
+
+	--animation-speed: .3s ;
+	--animation-func: ease;
+	--animation: var(--animation-speed) var(--animation-func);
+
+	--b: B;
+	--m: M;
+	--r: R;
+	--l: L;
+}
+
+body {
+	margin: 0;
+}
